@@ -1,0 +1,332 @@
+@media screen and (max-width: 1400px) {
+
+    .cursos-container {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .certificados {
+        margin: 1% 0;
+    }
+
+    #right {
+        text-align: end;
+    }
+
+
+}
+
+@media screen and (max-width: 1100px) {
+
+    .certificados>img {
+        width: 150%;
+    }
+
+    .certificados>img:hover {
+        width: 160%;
+    }
+
+    .certificados>p {
+        width: 150%;
+    }
+}
+
+@media screen and (max-width: 990px) {
+
+    header {
+        height: 300px;
+    }
+
+    /* Nav in the menu!!*/
+
+    #menu {
+        display: inline;
+    }
+    
+    .nav {
+        width: 60%;
+        background-color: #006b7ce3;
+        position: absolute;
+        display: none;
+        grid-template-columns: 100%;
+        top: 8%;
+        right: 2%;
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+    
+    .items {
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+    }
+
+    .items:hover {
+        background-color: var(--darkest);
+    }
+
+    .items>p {
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    /*Smaller about font-size*/
+
+    .about>p {
+        font-size: 130%;
+    }
+
+
+    /*Bigger Academic Box!*/
+
+    .formacion-container {
+        width: 67%;
+    }
+
+    .certificados>img {
+        width: 130%;
+    }
+
+    .certificados>img:hover {
+        width: 140%;
+    }
+
+    .certificados>p {
+        width: 130%;
+    }
+
+    /*Smaller Knowledge box*/
+
+    .tech-img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .description-container {
+        width: 150px;
+        height: 150px;
+        transform: scale(1);
+    }
+
+    .description {
+        font-size: 55%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    /*Academic box*/
+
+    .formacion-container {
+        width: 80%;
+    }
+
+    .titulos {
+        width: 85%;
+    }
+
+
+    /*Knowledge box*/
+
+    .tech-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+
+    .tech-img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .description-container {
+        width: 200px;
+        height: 200px;
+        transform: scale(1);
+    }
+
+    .description {
+        font-size: 75%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    /*About*/
+    .about {
+        padding-top: 1%;
+        flex-direction: column;
+        justify-content: flex-start;
+        overflow: hidden;
+        height: 300px;
+    }
+
+    .open {
+        height: 100%;
+    }
+
+    .about>img {
+        width: 160px;
+        height: 160px;
+    }
+
+    .about>p {
+        font-size: 160%;
+        width: 90%;
+    }
+
+    #flecha {
+        display: flex;
+    }
+
+    .up {
+        transform: rotate(180deg);
+        transition: .5s;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .nav {
+        width: 90%;
+        font-size: 25px;
+    }
+
+    .icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    #world, #menu {
+        width: 25px;
+        height: 25px;
+    }
+
+    /*Academics*/
+
+    .formacion-container {
+        width: 90%;
+    }
+
+    .titulos {
+        width: 90%;
+    }
+
+    .certificados>img {
+        width: 160%;
+    }
+
+    .certificados>img:hover {
+        width: 170%;
+    }
+
+    .certificados>p {
+        width: 160%;
+    }
+
+    /*Footer*/
+
+    .icons {
+        width: 80%;
+    }
+
+    .contact {
+        justify-content: space-around;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .title {
+        font-size: 20px;
+    }
+
+    /*About*/
+
+    .about {
+        padding-top: 10px;
+    }
+
+    .about>img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .about>p {
+        font-size: 100%;
+        width: 90%;
+    }
+
+    /*Academic*/
+
+    .academics {
+        font-size: 15px;
+    }
+
+    /*Knowledge*/
+
+    .tech-img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .description-container {
+        width: 150px;
+        height: 150px;
+    }
+
+    .description {
+        font-size: 56%;
+    }
+
+
+}
+
+@media screen and (max-width: 400px) {
+
+    #world, #menu {
+        width: 25px;
+        height: 25px;
+    }
+
+    .nav {
+        width: 90%;
+        font-size: 15px;
+    }    
+
+    .first-img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .title {
+        font-size: 15px;
+    }
+
+    .academics {
+        margin-top: 10%;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .nav {
+        font-size: 12px;
+    }
+
+    .tech-img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .description-container {
+        width: 120px;
+        height: 120px;
+    }
+
+    .description {
+        font-size: 44%;
+    }
+}

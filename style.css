@@ -154,6 +154,7 @@ header {
 }
 
 .about>p {
+    text-align: justify;
     font-size: 160%;
     width: 70%;
 }

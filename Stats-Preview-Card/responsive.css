@@ -1,0 +1,81 @@
+@media screen and (max-width: 1400px) {
+    .card {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1000px){
+
+    body {
+        position: relative;
+    }
+
+    .card {
+        flex-direction: column-reverse;
+        justify-content: start;
+        height: 1000px;
+        margin: 20% 0;
+    }
+
+    .img {
+        width: 100%;
+        height: 50%;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 10px;
+    }
+
+    .overlay {
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 10px;
+    }
+
+    .info-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .info {
+        margin: 0;
+        width: 90%;
+        height: 80%;
+        display: grid;
+        grid-template-rows: 1fr 1fr 2fr;
+    }
+
+    .title {
+        text-align: center;
+        margin: 0;
+    }
+
+    .paragraph {
+        text-align: center;
+        margin: 0;
+    }
+
+    .chart-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .chart {
+        margin: 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body, .paragraph, .descrip {
+        font-size: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    body, .paragraph, .descrip {
+        font-size: 100%;
+    }
+
+    .img {
+        height: 30%;
+    }
+}

@@ -21,9 +21,9 @@ const div = array=>{
 };
 
 const longNum = (number)=>{
-  if (number.toString().length > 16) {
+  if (number.toString().length > 20) {
     alert('number is too big!');
-    while(number.toString().length > 16){
+    while(number.toString().length > 20){
       number = number.toString().substring(0, number.length - 1);
     };
     cuenta = number;
